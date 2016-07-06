@@ -16,7 +16,7 @@ public class MichalinaServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         ServletOutputStream outputStream = resp.getOutputStream();
-        outputStream.println("<bold>Michalina</bold>");
+        outputStream.println("<bold>Michalina Bartosik</bold>");
 
 
 
